@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'app-systemsc-dev-dxb-001'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F585325497614B1797C10EF30A89A9D2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
